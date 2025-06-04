@@ -1,0 +1,24 @@
+source:
+  database:
+    name: chinook
+    type: sqlite
+  table:
+    - albums
+    - artists
+    - customers
+    - employees
+    - genres
+    - invoice_items
+    - invoices
+    - media_types
+    - playlist_track
+    - playlists
+    - tracks
+target:
+  type: s3
+  credentials:
+    aws_access_key_id: PLACEHOLDER
+    aws_secret_access_key: PLACEHOLDER
+  location:
+    path: s3://cm-aws-s3-dev/chinook/khanh98
+    file_format: parquet
