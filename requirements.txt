@@ -1,0 +1,6 @@
+sqlalchemy==2.0.41
+pandas==2.2.3
+boto3==1.38.28
+pyarrow==20.0.0
+awswrangler==3.12.0
+PyYAML==6.0.2
